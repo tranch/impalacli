@@ -1,0 +1,6 @@
+click
+cli-helpers==1.0.2
+docopt==0.6.2
+impyla==0.14.1
+prompt-toolkit==1.0.15
+Pygments==2.2.0
