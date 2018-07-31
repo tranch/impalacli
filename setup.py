@@ -27,6 +27,11 @@ setup(
     description=description,
     long_description=description,
     install_requires=install_requirements,
+    url='https://github.com/tranch/impalacli',
+    license='BSD',
+    author='tranch',
+    author_email='tranch.xiao@gmail.com',
+    platforms=['any'],
     entry_points={
         'console_scripts': ['impalacli = impalacli.main:cli'],
     }
