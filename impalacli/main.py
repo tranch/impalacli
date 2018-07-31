@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from __future__ import unicode_literals
 from __future__ import print_function
@@ -7,7 +7,7 @@ import click
 from impala.dbapi import connect
 from prompt_toolkit import prompt
 from prompt_toolkit.history import InMemoryHistory
-from impalacli.lexer import ImpalaLexer
+from .lexer import ImpalaLexer
 from cli_helpers.tabular_output import TabularOutputFormatter
 
 click.disable_unicode_literals_warning = True
